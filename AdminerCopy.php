@@ -61,7 +61,7 @@ menu:not([title]):before{
 }
 </style>
 		
-		<script <?php echo nonce()?> type='text/javascript'>
+		<script <?php echo Adminer\nonce()?> type='text/javascript'>
 		function makeCopiable()
 		{
 			for (let span of document.querySelectorAll('table' ) )
